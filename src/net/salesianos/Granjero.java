@@ -7,7 +7,7 @@ class Granjero implements Runnable {
     private final Huerto huerto;
     private final int cantidadVerduras;
 
-    public Granjero(String nombre, Huerto huerto, int cantidadVerduras) {
+    public Granjero(String nombre, Huerto huerto, int cantidadVerduras, int tiempo) {
         this.nombre = nombre;
         this.huerto = huerto;
         this.cantidadVerduras = cantidadVerduras;
